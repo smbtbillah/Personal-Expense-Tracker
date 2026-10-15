@@ -21,3 +21,29 @@ elif remain = 0:
     print("You have used your entire budget.")
 
 
+while True:
+    print("\n===== PERSONAL EXPENSE TRACKER =====")
+    print("1. Add Income")
+    print("2. Add Expense")
+    print("3. View Balance")
+    print("4. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        print("Income feature coming soon.")
+
+    elif choice == "2":
+        print("Expense feature coming soon.")
+
+    elif choice == "3":
+        print("Balance feature coming soon.")  
+
+    elif choice == "4":
+            print("Exiting...")       
+            break
+    else:
+        print("Your Input is invalid")
+
+
+    
